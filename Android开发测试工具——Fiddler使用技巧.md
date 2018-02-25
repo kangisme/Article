@@ -1,4 +1,4 @@
-## Android开发测试工具——Fiddler使用技巧（一） ##
+## Android开发测试工具——Fiddler使用技巧 ##
 
 ### 1.Fiddler基本设置 ###
 **电脑端设置**<br/>
@@ -23,3 +23,8 @@
 如果还没有达到低速的要求，那就手动限速<br/>
 设置限速路径**Rules->Customize Rules...**或者快捷键**【Ctrl + R】**直接打开fiddler规则脚本页面，**【Ctrl + F】**查找到如下图红框所示内容，时间单位为毫秒，是每上传/下载1KB所需耗时。可以根据需要来进行测试，知道满足开发和测试需求。需要注意的是，保存规则脚本后，**Rules/Performances/Simulate Modem Speeds**会默认取消勾选，得重新勾选才能使脚本生效。
 ![](https://github.com/kangisme/-/raw/master/fiddler%E8%A7%84%E5%88%99%E8%84%9A%E6%9C%AC.png)
+
+更多关于Fiddler的知识可参考：  
+[【HTTP】Fiddler（一） - Fiddler简介](http://blog.csdn.net/ohmygirl/article/details/17846199)  
+[【HTTP】Fiddler（二） - 使用Fiddler做抓包分析](http://blog.csdn.net/ohmygirl/article/details/17849983)  
+[【HTTP】Fiddler（三）- Fiddler命令行和HTTP断点调试](http://blog.csdn.net/ohmygirl/article/details/17855031)
